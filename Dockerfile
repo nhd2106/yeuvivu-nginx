@@ -1,7 +1,7 @@
 FROM node:alpine
 
 # Set working directory
-WORKDIR /var/www
+WORKDIR /usr/local
 
 # Install PM2 globally
 RUN npm install --global pm2
